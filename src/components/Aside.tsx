@@ -1,0 +1,25 @@
+import { NavLink } from "react-router-dom";
+import styles from "./components.module.css";
+import Logo from "/logo.jpg";
+
+function Aside() {
+  return (
+    <div>
+      <div className={styles.logo}>
+        <img src={Logo} alt="Logo" />
+      </div>
+      <div className={styles.menu}>
+        <ul>
+          <li>
+            <NavLink to="/">Dashboard</NavLink>
+          </li>
+          <li>
+            <NavLink to="/another-page">Another Page</NavLink>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default Aside;
