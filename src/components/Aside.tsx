@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 import styles from "./components.module.css";
-import Logo from "/logo.jpg";
+import Logo from "/logo11.jpg";
 
 function Aside() {
   return (
     <div>
       <div className={styles.logo}>
-        <img src={Logo} alt="Logo" />
+        <img src={Logo} alt="Logo11.jpg" />
       </div>
       <div className={styles.menu}>
         <ul>

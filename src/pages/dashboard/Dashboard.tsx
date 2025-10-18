@@ -1,4 +1,4 @@
-import React from  './Dashboard.module.css'
+import React from  './dashboard.module.css'
 
 function Dashboard() {
   return
